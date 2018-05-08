@@ -1,0 +1,17 @@
+---
+title: "Predicting Wine Quality using Machine Learning"
+author: "Muhamad Azfar Ramli"
+date: "8 May 2018"
+output: html_document
+---
+
+This app allows users to select different wine properties and predict the quality of the wine.
+
+The model was trained using a random forest prediction model using the caret package and the red wine dataset obtained from the UC Machine Learning Repository obtained from the following url: <https://archive.ics.uci.edu/ml/datasets/wine+quality>
+
+
+The code is also available at <http>
+
+
+
+
