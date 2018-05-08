@@ -25,12 +25,9 @@ buildrandrow<-function(winedata,input1,input2,input3,input4,input5){
 
 # Define server logic required to draw a plot
 shinyServer(function(input, output) {
-    
-    color='red'
-    folder<-'D:\\Personal and admin\\Courses\\Data Science Spec\\9. Developing Data Products\\Course Project'
-    datafilename<-paste(folder,'\\dataset\\winequality-',color,'2.csv',sep='')
+    datafilename<-'winequality-red2.csv'
     winedata<-read.csv(datafilename)
-    MLmodel<-readRDS(paste(folder,'\\',color,'winemodel.rds',sep=''))
+    MLmodel<-readRDS('redwinemodel.rds')
     
     output$quality<-renderText({
         randrow<-winedata[sample(nrow(winedata),1),]
