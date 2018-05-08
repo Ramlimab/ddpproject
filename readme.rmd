@@ -9,9 +9,11 @@ This app allows users to select different wine properties and predict the qualit
 
 The model was trained using a random forest prediction model using the caret package and the red wine dataset obtained from the UC Machine Learning Repository obtained from the following url: <https://archive.ics.uci.edu/ml/datasets/wine+quality>
 
+A short presentation describing the app is found at the following url:
+<https://rpubs.com/Jetfield/387300>
+
 The app is deployed in Shinyapps.io at the following url:
 <https://ramlimab.shinyapps.io/ddpproject/>
-
 
 
 
